@@ -1,0 +1,41 @@
+---
+abstract: 'A postmodern object system for Perl 5'
+author:
+  - 'Moose is an open project, there are at this point dozens of people who have'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::Exception: 0.27
+  Test::More: 0.88
+  Test::Requires: 0.05
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.00'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Moose
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Carp: 0
+  Class::MOP: 1.10
+  Data::OptList: 0
+  List::MoreUtils: 0.12
+  Package::DeprecationManager: 0.07
+  Params::Util: 1.00
+  Scalar::Util: 1.19
+  Sub::Exporter: 0.980
+  Sub::Name: 0
+  Task::Weaken: 0
+  Try::Tiny: 0.02
+  perl: 5.8.3
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://git.moose.perl.org/Moose.git
+version: 1.17
+x_authority: cpan:STEVAN
